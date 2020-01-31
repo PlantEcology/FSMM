@@ -3,7 +3,7 @@ Fraxinus Survival and Mortality Model (version 0.3)
 
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer
 
-To run: Load the FSMmodel.R script into R Console. Change working directory to location of data in CSV format. Make sure this is a copy of data because the script will modify the file adding columns! Run function FSM(fname), where fname is the file name (without extension and in " "). You can set which model type, threshold for defining mortality, producing mortality year prediction, and displaying some basic output information. These and their defaults are described below.
+To run: Load the FSMmodel.R script into R Console. Change working directory to location of data in CSV format (tree10000.csv is an example data set with 10,000 trees). Make sure this is a copy of data because the script will modify the file adding columns! Run function FSM(fname), where fname is the file name (without extension and in " "). You can set which model type, threshold for defining mortality, producing mortality year prediction, and displaying some basic output information. These and their defaults are described below.
 
 ## type = Model variables to include ("dieback", "vigor", "woodpecker")
 Three model types are available each includes presence of bark splits (1,0) and diameter at breast height (DBH, in cm) ("dieback", "vigor", "woodpecker"). 

@@ -38,4 +38,4 @@ Default year is FALSE (year=FALSE) because it requires percent dieback and DBH. 
 ## display = Output basic statistics from trees, including counts, means of input variables, mean probability of mortality, for trees that will survive, die, and total (based on threshold of mortality value). (TRUE, FALSE)
 Default display is TRUE (display=TRUE)
 
-Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278.
+Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278. (<a href="http://joa.isa-arbor.com/request.asp?JournalID=1&ArticleID=3370&Type=2">article</a>)

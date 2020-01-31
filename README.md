@@ -14,15 +14,13 @@ Type "vigor" provides model output using inputs of vigor, DBH, and bark splits. 
 
 Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Published model had 75.7% correct prediction of mortality.
 
-# threshold = Probability of mortality that will define if a tree dies within 3 years (continuous 0-1)
+## threshold = Probability of mortality that will define if a tree dies within 3 years (continuous 0-1)
 Default threshold is 0.65
 
-# year = Model to predict the year after data collection year in which a tree will die (TRUE, FALSE)
+## year = Model to predict the year after data collection year in which a tree will die (TRUE, FALSE)
 Default year is FALSE (year=FALSE) because it requires percent dieback and DBH. Published model had 71.6% correct prediction of mortality year.
 
-# display = Output basic statistics from trees, including counts, means of input variables, mean probability of mortality, for trees that will survive, die, and total (based on threshold of mortality value). (TRUE, FALSE)
+## display = Output basic statistics from trees, including counts, means of input variables, mean probability of mortality, for trees that will survive, die, and total (based on threshold of mortality value). (TRUE, FALSE)
 Default display is TRUE (display=TRUE)
-
-Model details and explanation of inputs available in
 
 Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278.

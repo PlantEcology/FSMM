@@ -23,4 +23,5 @@ display = Output basic statistics from trees, including counts, means of input v
 Default display is TRUE (display=TRUE)
 
 Model details and explanation of inputs available in
+
 Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278.

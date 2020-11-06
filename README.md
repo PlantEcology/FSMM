@@ -63,6 +63,7 @@ display=TRUE
 ```
 
 ## Example
+This example would take the tree10000.csv file and produce a model based on vigor, DBH, bark splits, and a mortality threshold probability of 0.65 and output a file named FSM-tree10000.csv that would now include probability of mortality, a decision of mortality (1 or 0), and when mortality would occur (year). It would also output a table of basic statistics in the R terminal.
 ```
 FSM("tree10000.csv", type="vigor", threshold="0.65", year=TRUE, display=TRUE)
 ```

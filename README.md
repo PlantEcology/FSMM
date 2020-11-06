@@ -14,15 +14,15 @@ Data should be organized in a CSV file with trees in rows (tree10000.csv is an e
 
 Tree = unique tree ID
 
-BS = presence/absence of bark splits (1/0)
+BS = presence/absence of bark splits (1/0) [required for all model types]
 
-DBH = diameter at breast height (cm)
+DBH = diameter at breast height (cm) [required for all model types]
 
-DB = percent crown dieback (5-100%)
+DB = percent crown dieback (5-100%) [required for "dieback" model type]
 
-V = vigor rating (1-5, with 1 = healthiest and 5 = crown half dead)
+V = vigor rating (1-5, with 1 = healthiest and 5 = crown half dead) [required for "vigor" model type]
 
-WP = presence/absence of woodpecker activity (1/0)
+WP = presence/absence of woodpecker activity (1/0) [required for "woodpecker" model type]
 
 ## type
 Defines the variables to include in model predictions. Three model types are available each includes presence of bark splits (1,0) and diameter at breast height (DBH [cm]) ("dieback", "vigor", "woodpecker"). 

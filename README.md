@@ -62,8 +62,10 @@ Default
 display=TRUE
 ```
 
-##Example
+## Example
+```
 FSM("tree10000.csv", type="vigor", threshold="0.65", year=TRUE, display=TRUE)
+```
 
 ## Citation
 Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278. (<a href="http://joa.isa-arbor.com/request.asp?JournalID=1&ArticleID=3370&Type=2">article</a>)

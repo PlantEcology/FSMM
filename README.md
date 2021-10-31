@@ -1,12 +1,12 @@
-# FSM
-Fraxinus Survival and Mortality Model (version 0.4)
+# FSMM
+Fraxinus Survival and Mortality Model (version 0.5)
 
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer
 
 ## Install
 Installation requires <a href="https://cran.r-project.org/package=devtools">devtools</a>.
 ```
-install_github("PlantEcology/FSM")
+install_github("PlantEcology/FSMM")
 ```
 
 ## Data Format
@@ -65,7 +65,7 @@ display=TRUE
 ## Example
 This example would take the tree10000.csv file and produce a model based on vigor, DBH, bark splits, and a mortality threshold probability of 0.65 and output a file named FSM-tree10000.csv that would now include probability of mortality, a decision of mortality (1 or 0), and when mortality would occur (year). It would also output a table of basic statistics in the R terminal.
 ```
-FSM("tree10000.csv", type="vigor", threshold="0.65", year=TRUE, display=TRUE)
+FSMM("tree10000.csv", type="vigor", threshold="0.65", year=TRUE, display=TRUE)
 ```
 
 ## Citation

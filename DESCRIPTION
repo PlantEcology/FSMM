@@ -2,8 +2,7 @@ Package: FSMM
 Title: Estimate Probabilities of Ash Tree Mortality
 Version: 0.5
 Authors@R: 
-    person(given = "Jordan",
-           family = "Marshall",
+    person("JM", "Marshall",
            role = c("aut", "cre"),
            email = "marshalj@pfw.edu",
            comment = c(ORCID = "0000-0001-6024-3758"))

@@ -1,5 +1,5 @@
 Package: FSMM
-Title: Estimates Probabilities of Ash Tree Mortality
+Title: Estimate Probabilities of Ash Tree Mortality
 Version: 0.5
 Authors@R: 
     person(given = "Jordan",

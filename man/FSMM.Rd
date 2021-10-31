@@ -7,7 +7,7 @@
 FSMM(fname, type = "dieback", threshold = "0.65", year = FALSE, display = TRUE)
 }
 \arguments{
-\item{type}{Determines model variables to include "dieback", "vigor", "woodpecker". Three model types are available each includes presence of bark splits (1,0) and diameter at breast height (DBH, in cm) ("dieback", "vigor", "woodpecker"). Default type is "dieback", which provides model output using inputs of percent dieback, DBH, and bark splits. Published model had 83.8\% correct prediction of mortality. Type "vigor" provides model output using inputs of vigor, DBH, and bark splits. Published model had 86.5\% correct prediction of mortality. Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Published model had 75.7\% correct prediction of mortality.}
+\item{type}{Determines model variables to include "dieback", "vigor", "woodpecker". Three model types are available each includes presence of bark splits (1, 0) and diameter at breast height (DBH, cm) ("dieback", "vigor", "woodpecker"). Default type is "dieback", which provides model output using inputs of percent dieback, DBH, and bark splits. Published model had 83.8\% correct prediction of mortality. Type "vigor" provides model output using inputs of vigor, DBH, and bark splits. Published model had 86.5\% correct prediction of mortality. Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Published model had 75.7\% correct prediction of mortality.}
 
 \item{threshold}{Probability of mortality that will define if a tree dies within 3 years (continuous 0-1). Default threshold is 0.65}
 

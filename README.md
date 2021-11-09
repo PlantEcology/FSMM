@@ -12,24 +12,22 @@ install_github("PlantEcology/FSMM")
 ## Data Format
 Data should be organized in a CSV file with trees in rows (tree10000.csv is an example data set with 10,000 trees). The function will add mortality probability, mortality prediction (0,1 based on a threshold), and mortality year (1-3 after data year, not included by default) columns to the data file. Required data for models vary, however, bark splits and DBH are required for all models. 
 
-Tree = unique tree ID
-
-BS = presence/absence of bark splits (1/0) [required for all model types]
-
-DBH = diameter at breast height (cm) [required for all model types]
-
-DB = percent crown dieback (5-100%) [required for "dieback" model type]
-
-V = vigor rating (1-5, with 1 = healthiest and 5 = crown half dead) [required for "vigor" model type]
-
-WP = presence/absence of woodpecker activity (1/0) [required for "woodpecker" model type]
+Variable | Description 
+------|-----
+Tree | Unique tree ID
+BS | presence/absence of bark splits (1/0) [required for all model types]
+DBH | diameter at breast height (cm) [required for all model types]
+DB | percent crown dieback (5-100%) [required for "dieback" model type]
+V | vigor rating (1-5, with 1 = healthiest and 5 = crown half dead) [required for "vigor" model type]
+WP | presence/absence of woodpecker activity (1/0) [required for "woodpecker" model type]
 
 ## type
 Defines the variables to include in model predictions. Three model types are available each includes presence of bark splits (1,0) and diameter at breast height (DBH [cm]) ("dieback", "vigor", "woodpecker"). 
 
-Type "dieback" provides model output using inputs of percent dieback, DBH, and bark splits. Clark et al. (2015) model had 83.8% correct prediction of mortality.
-
-Type "vigor" provides model output using inputs of vigor, DBH, and bark splits. Clark et al. (2015) model had 86.5% correct prediction of mortality.
+Option | Description
+------|-----
+"dieback" | Provides model output using inputs of percent dieback, DBH, and bark splits. Clark et al. (2015) model had 83.8% correct prediction of mortality.
+"vigor" | provides model output using inputs of vigor, DBH, and bark splits. Clark et al. (2015) model had 86.5% correct prediction of mortality.
 
 Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Clark et al. (2015) model had 75.7% correct prediction of mortality.
 

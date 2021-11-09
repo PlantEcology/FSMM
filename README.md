@@ -28,8 +28,7 @@ Option | Description
 ------|-----
 "dieback" | Provides model output using inputs of percent dieback, DBH, and bark splits. Clark et al. (2015) model had 83.8% correct prediction of mortality.
 "vigor" | provides model output using inputs of vigor, DBH, and bark splits. Clark et al. (2015) model had 86.5% correct prediction of mortality.
-
-Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Clark et al. (2015) model had 75.7% correct prediction of mortality.
+"woodpecker" | provides model output using inputs of wood pecker activity, DBH, and bark splits. Clark et al. (2015) model had 75.7% correct prediction of mortality.
 
 Default
 ```

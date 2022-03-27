@@ -8,7 +8,7 @@ Authors@R:
            comment = c(ORCID = "0000-0001-6024-3758"))
 Date: 2021
 URL: https://github.com/PlantEcology/FSMM/
-Description: Fraxinus Survival and Mortality Model (FSM) provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
+Description: Fraxinus Survival and Mortality Model (FSMM) provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
 License: `use_mit_license()`
 Encoding: UTF-8
 LazyData: true

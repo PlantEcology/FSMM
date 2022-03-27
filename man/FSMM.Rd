@@ -22,7 +22,7 @@ Provides probabilities and likelihood of mortality of street and park ash trees 
 Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278.
 }
 \examples{
-FSM("tree10000.csv")
+FSMM("tree10000.csv")
 }
 \keyword{ash}
 \keyword{fraxinus}

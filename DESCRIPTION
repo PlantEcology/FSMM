@@ -1,6 +1,6 @@
 Package: FSMM
 Title: Estimates Probabilities of Ash Tree Mortality
-Version: 0.6
+Version: 0.7
 Authors@R: 
     person(given = "Jordan",
            family = "Marshall",
@@ -9,7 +9,7 @@ Authors@R:
            comment = c(ORCID = "0000-0001-6024-3758"))
 URL: https://github.com/PlantEcology/FSMM
 Description: Fraxinus Survival and Mortality Model (FSM) provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
-License: `use_mit_license()`
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

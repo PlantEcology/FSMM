@@ -2,18 +2,18 @@
 % Please edit documentation in R/FSMM.R
 \name{FSMM}
 \alias{FSMM}
-\title{Fraxinus Survival and Mortality Model (v 0.5)}
+\title{Fraxinus Survival and Mortality Model (v 0.6)}
 \usage{
-FSMM(fname, type = "dieback", threshold = "0.65", year = FALSE, display = TRUE)
+FSMM(dat, type = "dieback", threshold = "0.65", year = FALSE, export = NULL)
 }
 \arguments{
-\item{type}{Determines model variables to include "dieback", "vigor", "woodpecker". Three model types are available each includes presence of bark splits (1, 0) and diameter at breast height (DBH, cm) ("dieback", "vigor", "woodpecker"). Default type is "dieback", which provides model output using inputs of percent dieback, DBH, and bark splits. Published model had 83.8\% correct prediction of mortality. Type "vigor" provides model output using inputs of vigor, DBH, and bark splits. Published model had 86.5\% correct prediction of mortality. Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Published model had 75.7\% correct prediction of mortality.}
+\item{type}{Determines model variables to include "dieback", "vigor", "woodpecker". Three model types are available each includes presence of bark splits (1,0) and diameter at breast height (DBH, in cm) ("dieback", "vigor", "woodpecker"). Default type is "dieback", which provides model output using inputs of percent dieback, DBH, and bark splits. Published model had 83.8\% correct prediction of mortality. Type "vigor" provides model output using inputs of vigor, DBH, and bark splits. Published model had 86.5\% correct prediction of mortality. Type "woodpecker" provides model output using inputs of wood pecker activity, DBH, and bark splits. Published model had 75.7\% correct prediction of mortality.}
 
 \item{threshold}{Probability of mortality that will define if a tree dies within 3 years (continuous 0-1). Default threshold is 0.65}
 
 \item{year}{Model to predict the year after data collection year in which a tree will die (TRUE, FALSE). Default year is FALSE (year=FALSE) because it requires percent dieback and DBH. Published model had 71.6\% correct prediction of mortality year.}
 
-\item{display}{Output basic statistics from trees, including counts, means of input variables, mean probability of mortality, for trees that will survive, die, and total (based on threshold of mortality value). (TRUE, FALSE). Default display is TRUE (display=TRUE)}
+\item{export}{Model will export CSV file with the name provided here (character string). Default exported file name will be "FSMM-current date.csv".}
 }
 \description{
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
@@ -22,7 +22,7 @@ Provides probabilities and likelihood of mortality of street and park ash trees 
 Clark, RE, KN Boyes, LE Morgan, AJ Storer, and JM Marshall. 2015. Development and assessment of ash mortality models in relation to emerald ash borer infestation. Arboriculture & Urban Forestry 41, 270-278.
 }
 \examples{
-FSMM("tree10000.csv")
+FSMM(tree10000)
 }
 \keyword{ash}
 \keyword{fraxinus}

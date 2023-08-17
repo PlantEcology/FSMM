@@ -1,4 +1,4 @@
-# FSM
+# FSMM
 Fraxinus Survival and Mortality Model (version 0.6)
 
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer

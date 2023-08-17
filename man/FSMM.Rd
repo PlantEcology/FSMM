@@ -14,7 +14,7 @@ FSMM(dat, type = "dieback", threshold = "0.65", year = FALSE, export = NULL)
 \item{year}{Model to predict the year after data collection year in which a tree will die (TRUE, FALSE). Default year is FALSE (year=FALSE) because it requires percent dieback and DBH. Published model had 71.6\% correct prediction of mortality year.}
 
 \item{export}{Model will export CSV file with the name provided here (character string). Default exported file name will be "FSMM-current date.csv".}
-}
+
 \description{
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
 }

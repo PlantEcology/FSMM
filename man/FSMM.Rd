@@ -15,7 +15,6 @@ FSMM(dat, type = "dieback", threshold = "0.65", year = FALSE, export = NULL)
 
 \item{export}{Export CSV file name (character string). Default file name will be "FSMM-current date.csv".}
 }
-
 \description{
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
 }

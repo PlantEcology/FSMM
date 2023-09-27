@@ -57,7 +57,7 @@ year=FALSE
 ## Example
 This example would take the provided data tree10000 and produce a model based on vigor, DBH, bark splits, and a mortality threshold probability of 0.65 and output would include probability of mortality, a decision of mortality (1 or 0), and when mortality would occur (year).
 ```
-FSM(tree10000, type="vigor", threshold="0.65", year=TRUE)
+FSMM(tree10000, type="vigor", threshold="0.65", year=TRUE)
 ```
 
 ## Citation

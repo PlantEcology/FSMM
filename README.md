@@ -10,7 +10,7 @@ devtools::install_github("PlantEcology/FSMM")
 ```
 
 ## Data Format
-Data should be organized trees in rows (tree10000 provided as example data set with 10,000 trees). The function will add mortality probability, mortality prediction (0,1 based on a threshold), and mortality year (1-3 after data year, not included by default) columns to the data output. Required data for models vary, however, bark splits and DBH are required for all models. 
+Data should be organized with trees in rows (tree10000 provided as example data set with 10,000 trees). The function will add mortality probability, mortality prediction (0,1 based on a threshold), and mortality year (1-3 after data year, not included by default) columns to the data output. Required data for models vary, however, bark splits and DBH are required for all models. 
 
 Tree = unique tree ID
 

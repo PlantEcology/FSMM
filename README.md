@@ -4,9 +4,13 @@ Fraxinus Survival and Mortality Model (version 0.7)
 Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer
 
 ## Install
-Installation in R requires <a href="https://cran.r-project.org/package=devtools">devtools</a>.
+Installation in R requires <a href="https://cran.r-project.org/package=devtools">devtools</a> or <a href="https://cran.r-project.org/package=remotes">remotes</a>.
 ```
 devtools::install_github("PlantEcology/FSMM")
+
+OR
+
+remotes::install_github("PlantEcology/FSMM")
 ```
 
 ## Data Format

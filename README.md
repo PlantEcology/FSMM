@@ -6,11 +6,11 @@ Provides probabilities and likelihood of mortality of street and park ash trees 
 ## Install
 Installation in R requires <a href="https://cran.r-project.org/package=devtools">devtools</a> or <a href="https://cran.r-project.org/package=remotes">remotes</a>.
 ```
-devtools::install_github("PlantEcology/FSMM")
+devtools::install_github("PlantEcology/fsmm")
 
 OR
 
-remotes::install_github("PlantEcology/FSMM")
+remotes::install_github("PlantEcology/fsmm")
 ```
 
 ## Data Format

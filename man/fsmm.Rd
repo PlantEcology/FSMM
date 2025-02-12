@@ -2,7 +2,7 @@
 % Please edit documentation in R/fsmm.R
 \name{fsmm}
 \alias{fsmm}
-\title{Fraxinus Survival and Mortality Model (v 0.7)}
+\title{Fraxinus Survival and Mortality Model}
 \usage{
 fsmm(dat, type = "dieback", threshold = "0.65", year = FALSE)
 }

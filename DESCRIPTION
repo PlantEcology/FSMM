@@ -1,6 +1,6 @@
 Package: fsmm
 Title: Fraxinus Survival and Mortality Model
-Version: 0.7
+Version: 0.8
 Authors@R: 
     person("Jordan", "Marshall", , "marshalj@pfw.edu", role = c("aut", "cre"))
 Description: Provides probabilities and likelihood of mortality of street and park ash trees exposed to emerald ash borer.
